@@ -1,14 +1,17 @@
 {
   "name": "restfulapi-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "try",
-  "main": "bin/restful-cli.js",
+  "main": "bin/restful_cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gagohsu/restfulapi-cli.git"
+  },
+  "bin": {
+    "restfulapi": "./bin/restful_cli.js"
   },
   "keywords": [],
   "author": "gagohsu",
