@@ -9,7 +9,7 @@ program
 .usage('[routername]')
 .arguments('[routername]')
 .action(function (routername) {
-     routernameVal = routername;
+     routernameVal = routername || "user";
   })
 .parse(process.argv);
 
@@ -31,9 +31,9 @@ function write(name, str, mode) {
 function main() {
 	var destinationPath = program.args.shift() || '.';
 	var tmp = loadTemplate('tmp.js');
-	
+
 	tmp = tmp.replace(/{name}/gi, routernameVal);
-	write(`./views/${routernameVal}.js`, tmp);
+	write(`./routes/${routernameVal}.js`, tmp);
 }
 
 main()
