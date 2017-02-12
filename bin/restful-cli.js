@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var program = require('commander');
 var fs = require('fs');
 var path = require('path');
@@ -33,7 +35,5 @@ function main() {
 	tmp = tmp.replace(/{name}/gi, routernameVal);
 	write(`./views/${routernameVal}.js`, tmp);
 }
-
-
 
 main()
