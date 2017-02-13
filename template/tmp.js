@@ -20,7 +20,7 @@ router.route('/{name}')
 
 router.route('/{name}/:id')
 
-.get(function(req, res) {f
+.get(function(req, res) {
     res.json({
         id: req.params.id, // 以req.params.id 取得參數
 
