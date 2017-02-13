@@ -1,6 +1,6 @@
 {
   "name": "restfulapi-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "try",
   "main": "bin/restful-cli.js",
   "scripts": {
