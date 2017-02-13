@@ -5,7 +5,7 @@ $ npm install -g restfulapi-cli
 ```
 Create the a restfulapi router:
 ```bash
-$ restfulapi-cli [routername]
+$ restfulapi [routername]
 ```
 
-It will create a restful API Template file into Views Dir for express'
+It will create a restful API Template file into routers Dir for express'
