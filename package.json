@@ -1,6 +1,6 @@
 {
   "name": "restfulapi-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "try",
   "main": "bin/restful-cli.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "bin": {
     "restfulapi": "./bin/restful-cli.js"
   },
-  "keywords": [],
+  "keywords": ["restful"],
   "author": "gagohsu",
   "license": "MIT",
   "bugs": {
